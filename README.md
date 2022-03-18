@@ -16,6 +16,7 @@ and the content of the file is
 VERSION="2.0.0"
 
 NETWORK_PASSHRASE="Public Global Stellar Network ; September 2015"
+
 FEDERATION_SERVER="https://api.domain.com/federation"
 TRANSFER_SERVER="https://api.domain.com"
 SIGNING_KEY="GBBHQ7H4V6RRORKYLHTCAWP6MOHNORRFJSDPXDFYDGJB2LPZUFPXUEW3"
@@ -60,7 +61,7 @@ display_decimals=2
 In the MVC framework in .Net Core it is not possible to create a .toml file within the routing.
 For this, the Static File system must be configured.
 
-Startup.cs
+# Startup.cs
 ************************************************** ********
 var provide = new FileExtensionContentTypeProvider();
             provide.Mappings[".toml"] = "application/json";
